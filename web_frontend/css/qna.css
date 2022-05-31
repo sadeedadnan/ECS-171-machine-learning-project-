@@ -1,0 +1,74 @@
+#qna{
+  display: none;
+  overflow: hidden;
+  color:white;
+}
+
+.qBox{
+  background-color: #829bff;
+  text-align: left;
+  font-size: 24px;
+  width: 80%;
+  height: 100px;
+  font-weight: bold;
+  margin-top: 3rem;
+  padding-top: 1rem;
+  word-break: keep-all;
+}
+
+.answerBox{
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+}
+
+.submitbutton{
+  width: 80%;
+  padding-bottom: 1rem;
+}
+
+@media screen and (max-height: 650px) {
+  .qBox{
+    background-color: #829bff;
+    text-align: left;
+    font-size: 19px;
+    width: 80%;
+    height: 90px;
+    font-weight: bold;
+    margin-top: 3rem;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .answerBox{
+    margin-top: 0;
+    padding-top: 0;
+  }
+}
+
+@media screen and (min-height: 651px) {
+  .qBox{
+    background-color: #829bff;
+    text-align: left;
+    font-size: 22px;
+    width: 80%;
+    height: 100px;
+    font-weight: bold;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
+@media screen and (min-height: 700px) {
+  .qBox{
+    background-color: #829bff;
+    text-align: left;
+    font-size: 24px;
+    width: 80%;
+    height: 100px;
+    font-weight: bold;
+    margin-top: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}

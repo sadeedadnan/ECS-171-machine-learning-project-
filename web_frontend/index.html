@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="JongKim">
+    <meta name="keywords" content="Predicting Housing Prices">
+    <meta name="description" content="Predicting California Housing Prices">
+
+    <!-- sns share -->
+    <meta property="og:url" content="https://mewolmejoo-kkondae.com/"/>
+    <meta property="og:title" content="Predicting Housing Prices"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content="img/snsimg.png"/>
+    <meta property="og:description" content="Predicting California Housing Prices"/>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="img/favicon.ico">
+
+    <!-- jquery -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+    </script>
+
+    <!-- title -->
+    <title>Predicting California Housing Prices</title>
+
+    <!-- stylesheets -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/default.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/qna.css">
+    <link rel="stylesheet" href="./css/animation.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/result.css">
+
+  </head>
+  <body onload="setList();">
+    <!-- loading img -->
+    <div class="spinner-wrapper">
+      <div class="sk-folding-cube">
+        <div class="sk-cube1 sk-cube"></div>
+        <div class="sk-cube2 sk-cube"></div>
+        <div class="sk-cube4 sk-cube"></div>
+        <div class="sk-cube3 sk-cube"></div>
+      </div>
+    </div>
+    <div class="container">
+      <!-- header logo -->
+      <header id="header" class="mx-auto pt-3">
+      </header>
+      <!-- main section -->
+      <section id="main" class="mx-auto my-auto pt-5 pb-3 px-3">
+        <h3>Predicting</br>California Housing Prices</h3>
+        <div id="cf" class="mainimg col-20 mx-auto my-4">
+          <img class="bottom img-fluid" alt="mainlogo0" src="./img/house.png" />
+          <img class="top img-fluid" alt="mainlogo3" src="./img/house2.png" />
+        </div>
+        <div class="maintitle my-3">
+          Try our model!
+        </div>
+        <div class="mainp mt-2">
+          Press button to start
+        </div>
+        <button class="button" onclick="js:begin()"><span>START </span></button>
+      </section>
+      <!-- qna section -->
+      <section id="qna">
+        <div class="qBox mx-auto">
+          House Details
+        </div>
+        <div class="answerBox">
+          <p>
+            Location:<br>
+            <select style="width:auto;" name="city" id="city"></select>
+          </p>
+          
+          <p>
+            Number of Bedrooms:<br>
+            <input type="number" id="bedId" />
+          </p>
+
+          <p>
+            Number of Bathrooms:<br>
+            <input type="number" id="bathId" />
+          </p>
+
+          <p>
+            Total interior livable area:<br>
+            <input type="number" id="interiorId" />
+          </p>
+
+          <p>
+            Elementary School Score:<br>
+            <input type="number" id="elementaryId" />
+          </p>
+
+          <p>
+            Middle School Score:<br>
+            <input type="number" id="middleId" />
+          </p>
+
+          <p>
+            High School Score:<br>
+            <input type="number" id="highId" />
+          </p>
+
+          <p>
+            Tax Assessed Value:<br>
+            <input type="number" id="taxAssessId" />
+          </p>
+
+          <p>
+            Annual Tax:<br>
+            <input type="number" id="annTaxId" />
+          </p>
+        </div>
+        <div class="submitbutton mx-auto">
+          <button class="button" onclick="js:calcResult()"><span>Get Result </span></button>
+        </div>
+      </section>
+      <!-- restul section -->
+      <section id="result" class="mx-auto my-4 py-2 px-3">
+        <div class="finalTitle pt-4 mb-1">
+          <p>The House Price is</p>
+        </div>
+        <div class="finalText mb-3">
+          <div class="middleText">
+            <span id="output"></span>
+          </div>
+        </div>
+        <div style="clear:both"></div>
+        <!-- footer for copyright -->
+        <footer id="ft">
+            Copyright © 2022 ECS171 Group14. All rights reserved.
+        </footer>
+      </section>
+      <!-- javascripts -->
+      <script src="./js/data.js" charset="utf-8"></script>
+      <script src="./js/start.js" charset="utf-8"></script>
+      <script src="./js/share.js" charset="utf-8"></script>
+    </div>
+    <!-- loading img jquery script -->
+    <script>
+      $(document).ready(function() {
+        setTimeout(function() {
+          //Preloader
+          preloaderFadeOutTime = 500;
+          function hidePreloader() {
+            var preloader = $('.spinner-wrapper');
+            preloader.fadeOut(preloaderFadeOutTime);
+          }
+          hidePreloader();
+        }, 2000);
+      });
+    </script>
+  </body>
+</html>
