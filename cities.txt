@@ -1,0 +1,402 @@
+Sylmar
+Escondido
+Avery
+Port Costa
+Corcoran
+Los Osos
+Whitewater
+Sunnyvale
+Glen Ellen
+Elverta
+Santa Margarita
+Bloomington
+San Anselmo
+Torrance
+Keene
+Rio Rico
+Arcata
+Menifee
+Berkeley
+Elk Grove
+San Martin
+Beverly Hills
+Needles
+Whittier
+Lytle Creek
+Sloughhouse
+Grand Terrace
+Scotts Valley
+Alamo
+Hughson
+Yountville
+Gardena
+Culver City
+Forest Falls
+Bishop
+South Pasadena
+Mojave
+Gilroy
+Emigrant Gap
+Newcastle
+Fiddletown
+Floriston
+Carmichael
+Pasadena
+Alameda
+Los Alamitos
+Fulton
+North Hollywood
+Diablo
+Santa Fe Springs
+Lynwood
+Moreno Valley
+Hesperia
+Oroville
+Mentone
+Calipatria
+Windsor
+Irvine
+Rialto
+Echo Lake
+Van Nuys
+Signal Hill
+West Hollywood
+Redding
+Loma Linda
+Garden Grove
+Ryde
+San Clemente
+San Luis Obispo
+Woodland
+Monterey
+Montrose
+Morongo Valley
+Bodfish
+Anaheim
+Spreckels
+Villa Park
+Alpine
+Visalia
+Castroville
+Menlo Park
+Huron
+Delhi
+Gonzales
+Pinon Hills
+Templeton
+Downey
+Redwood Valley
+Keyes
+Sun Valley
+Ross
+La Mesa
+Nogales
+Calexico
+El Cerrito
+Middletown
+Kerman
+Mission Viejo
+Riverbank
+San Marino
+Perris
+Orosi
+Felton
+Maxwell
+Patterson
+Isleton
+Hawaiian Gardens
+Crockett
+Terra Bella
+Lomita
+Sacramento
+Crestline
+Pomona
+Madeline
+Coarsegold
+Greenfield
+Elmira
+Winters
+Corte Madera
+Belvedere Tiburon
+Saratoga
+Nuevo
+Walnut Creek
+Upland
+Farmington
+Squaw Valley
+Placerville
+Fontana
+Dodgertown
+Madera
+Sultana
+Santa Clarita
+Hercules
+Bell Gardens
+Sugarloaf
+Lakewood
+Carson
+Maricopa
+Wrightwood
+Aptos
+Clearlake Oaks
+Homeland
+Brookdale
+Angelus Oaks
+Mecca
+Greenbrae
+Novato
+Modesto
+Delano
+Sanger
+Lawndale
+Inglewood
+Rescue
+Brisbane
+Diamond Springs
+Freedom
+Pismo Beach
+Del Mar
+Pebble Beach
+Mckinleyville
+Fawnskin
+Wildomar
+Davenport
+Bethel Island
+Woodlake
+Chualar
+Livingston
+Stonyford
+Rancho Cordova
+Edison
+West Covina
+Santa Cruz
+Kenwood
+Klamath
+Tubac
+Campbell
+Burbank
+Yuba City
+Finley
+Riverside
+Huntington Park
+Los Gatos
+Napa
+Earlimart
+Palo Alto
+Covina
+Manteca
+Artesia
+Buena Park
+Willits
+Watsonville
+Albany
+Lakeport
+King City
+Larkspur
+Castro Valley
+Sonoma
+Seaside
+Rohnert Park
+Oak Park
+Salida
+Cobb
+Morro Bay
+Pine Valley
+Clarksburg
+Dixon
+Oak View
+Norden
+Penngrove
+North Palm Springs
+Stanford
+Fowler
+Spring Valley
+Winton
+Midway City
+San Diego
+Avenal
+Oakland
+Montclair
+Cerritos
+Morgan Hill
+Galt
+Jamul
+Salinas
+Mountain View
+San Jacinto
+Wasco
+Carmel Valley
+Rancho Santa Fe
+Northridge
+Corona
+Zamora
+Fresno
+Cotati
+Hood
+Santa Clara
+Jacumba
+South San Francisco
+Compton
+La Puente
+Hathaway Pines
+Mt Baldy
+Solana Beach
+Grizzly Flats
+Oceano
+Clearlake
+Glendale
+San Lorenzo
+Earp
+Summerland
+Del Rey
+Lamont
+Clayton
+Pioneertown
+Borrego Springs
+Ukiah
+Porterville
+Selma
+Orangevale
+Milpitas
+Atherton
+Yorba Linda
+Citrus Heights
+Inyokern
+Richmond
+Tehachapi
+Corning
+Wilmington
+Courtland
+San Carlos
+Sunol
+Cardiff By The Sea
+Arvin
+Boulevard
+San Francisco
+Encino
+Playa Vista
+Moss Landing
+San Mateo
+Hopland
+San Bernardino
+Avila Beach
+Capistrano Beach
+Montague
+Temecula
+Badger
+Cupertino
+Los Angeles
+Atascadero
+Ben Lomond
+Harbor City
+El Dorado
+Ivanhoe
+Winterhaven
+Millbrae
+Soquel
+Soledad
+Boulder Creek
+Sheridan
+San Fernando
+Gustine
+Walnut Grove
+Bonsall
+Glendora
+San Bruno
+Rodeo
+Duarte
+Chula Vista
+Redwood City
+Coalinga
+Silverado
+Pine Mountain Club
+Murphys
+McFarland
+Grover Beach
+Rosemead
+San Quentin
+American Canyon
+Aguanga
+Sierra Madre
+Lake Arrowhead
+Concord
+Denair
+Mather
+San Ysidro
+San Ramon
+Mission Hills
+San Jose
+California City
+Brea
+Sebastopol
+Angels Camp
+Cutler
+North Highlands
+Fairfax
+Merced
+Eldridge
+Penn Valley
+Biola
+Dos Palos
+Ojai
+Monterey Park
+Reedley
+Acampo
+Hayward
+Mount Hermon
+Tumacacori
+Vallecito
+Yolo
+Rio Dell
+San Gabriel
+San Leandro
+Canoga Park
+Escalon
+Hilmar
+Creston
+Ripon
+Stockton
+Bonita
+Los Altos
+Tulare
+Coachella
+Somerset
+Tracy
+Bakersfield
+Long Beach
+El Segundo
+Laton
+Valencia
+Santa Monica
+La Verne
+Kernville
+Herald
+Pinole
+Carpinteria
+Santa Rosa
+Mountain Center
+Planada
+Santa Barbara
+Pollock Pines
+Redlands
+Woodbridge
+Maywood
+Camino
+Wilton
+Soda Springs
+Empire
+Alturas
+Auburn
+Armona
+Capitola
+San Rafael
+Orange
+Byron
+Lake Isabella
+Shafter
+Stevinson
+Crescent City
+Big Sur
+Wofford Heights
+Orange Cove
+Canby
