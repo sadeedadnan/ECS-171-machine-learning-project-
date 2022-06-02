@@ -5,33 +5,6 @@ const qna = document.querySelector("#qna");
 const result = document.querySelector("#result");
 const loader = document.querySelector(".spinner-wrapper");
 
-function goResult(text){
-  qna.style.WebkitAnimation = "fadeOut 1s";
-  qna.style.animation = "fadeOut 1s";
-  header.style.WebkitAnimation = "fadeOut 1s";
-  header.style.animation = "fadeOut 1s";
-  setTimeout(() => {
-    setTimeout(() => {
-      qna.style.display = "none";
-      result.style.display = "block";
-      loader.style.display = "block";
-      header.style.display = "block";
-      setTimeout(() => {
-        loader.style.WebkitAnimation = "fadeOut 1s";
-        loader.style.animation = "fadeOut 1s";
-        setTimeout(() => {
-          result.style.WebkitAnimation = "moveFromBottomFade 1s";
-          result.style.animation = "moveFromBottomFade 1s";
-          setTimeout(() => {
-            loader.style.display = "none";
-          }, 500);
-        },);
-      },4000);
-    }, 500);
-  });
-  document.getElementById("output").innerHTML=text;
-}
-
 function begin(){
   main.style.WebkitAnimation = "moveToTop 1s";
   main.style.animation = "moveToTop 1s";
@@ -47,19 +20,6 @@ function begin(){
       header.style.display = "flex";
     }, 500);
   }, 500);
-}
-
-function calcResult(){
-  var cityValue=document.getElementById('city').value;
-  var bedValue=document.getElementById('bedId').value;
-  var bathValue=document.getElementById('bathId').value;
-  var interiorValue=document.getElementById('interiorId').value;
-  var elementValue=document.getElementById('elementaryId').value;
-  var middleValue=document.getElementById('middleId').value;
-  var highValue=document.getElementById('highId').value;
-  var taxAssessValue=document.getElementById('taxAssessId').value;
-  var annTaxValue=document.getElementById('annTaxId').value;
-  goResult(cityValue);
 }
 
 function setList(){
