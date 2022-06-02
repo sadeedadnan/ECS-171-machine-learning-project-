@@ -64,6 +64,20 @@ var middleValue=document.getElementById('middleId').value;
 var highValue=document.getElementById('highId').value;
 var taxAssessValue=document.getElementById('taxAssessId').value;
 var annTaxValue=document.getElementById('annTaxId').value;
+const data = {
+  "city": cityValue,
+  "bedroom": bedValue,
+  "bathroom": bathValue,
+  "interior": interiorValue,
+  "elementary": elementValue,
+  "middle": middleValue,
+  "high": highValue,
+  "taxA": taxAssessValue,
+  "annTax": annTaxValue,
+}
+console.log(data)
+sendReq(data)
+/*
 sendReq({
   "city": cityValue,
   "bedroom": bedValue,
@@ -75,6 +89,7 @@ sendReq({
   "taxA": taxAssessValue,
   "annTax": annTaxValue,
 })
+*/
 }
 
 // argument to this function is the value user enters in the input text field
@@ -85,7 +100,7 @@ function sendReq(req = {}) {
 
   // call the postData function with url = backend server url
   // and request body = json object with inputText = user entered data
-  postData("http://localhost:5005/multiply", req )
+  postData("/predict", JSON.stringify(req) )
       .then(data => { // we process the response received from server
           console.log(data); // JSON data parsed by `data.json()` call
           if(data['success'] == true) { // set response accordingly
