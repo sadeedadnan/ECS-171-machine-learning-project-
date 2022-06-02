@@ -1,0 +1,74 @@
+#result{
+  display: none;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border-radius: 20px;
+  letter-spacing: -0.5px;
+}
+
+#ft{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #829bff;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+
+.middleText {
+  margin-top: 3rem;
+  padding-top: 2rem;
+}
+
+@media screen and (max-width: 440px) {
+  footer{
+    font-size: 9px;
+  }
+}
+
+@media screen and (min-width: 441px) {
+  footer{
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .finalTitle{
+    font-size: 28px;
+    color: #829bff;
+    font-family: 'BMEULJIRO';
+  }
+
+  .finalText{
+    font-size: 24px;
+    color: #666666;
+    word-break: keep-all;
+    height: 150px;
+  }
+}
+
+@media screen and (min-width: 401px) {
+  .finalTitle{
+    font-size: 30px;
+    color: #829bff;
+    font-family: 'BMEULJIRO';
+  }
+
+  .finalText{
+    font-size: 26px;
+    color: #666666;
+    word-break: keep-all;
+    height: 150px;
+  }
+}
+
+@font-face {
+    font-family: 'BMEULJIRO';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/BMEULJIRO.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

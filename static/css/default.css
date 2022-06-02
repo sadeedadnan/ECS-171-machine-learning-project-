@@ -1,0 +1,38 @@
+body{
+  background-color: #829bff;
+  width: 100%;
+  height: 100%;
+}
+
+*{
+  font-family: 'BMYEONSUNG';
+}
+
+head{
+  display: none;
+}
+
+header {
+  display: flex;
+  margin-top: 5px;
+  justify-content: space-between;
+  text-align: center;
+  width: 80%;
+}
+
+.container {
+  max-width: 450px;
+  max-height: 950px;
+  min-width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+@font-face {
+    font-family: 'BMYEONSUNG';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMYEONSUNG.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
